@@ -5,7 +5,7 @@ import { useInView } from 'react-intersection-observer'
 import Link from 'next/link'
 
 import Image from 'next/image'
-import imagePath from '../../public/img/CV.png'
+import imagePath from '../../public/img/Mon-Cv-img(Fr).png'
 
 import Bloc_title from '../Bloc_title/Bloc_title'
 
