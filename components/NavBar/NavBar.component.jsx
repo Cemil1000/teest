@@ -25,7 +25,7 @@ export default function NavBar() {
 
         <Navbar.Brand className='responsive-name' href='#landing'>
           <FaAngleDoubleUp className="iconReact" size='1.3rem' />
-          <p className="text">WASSIM JNIOUEN</p>
+          <p className="text">CEMIL YILMAZ</p>
         </Navbar.Brand>
 
         {/*//?--( Navbar.Toggle => BurgerMenu Only-For-Responsive )--*/}

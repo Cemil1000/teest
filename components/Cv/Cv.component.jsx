@@ -5,7 +5,7 @@ import { useInView } from 'react-intersection-observer'
 import Link from 'next/link'
 
 import Image from 'next/image'
-import imagePath from '../../public/img/Mon-Cv-img(Fr).png'
+import imagePath from '../../public/img/CV.png'
 
 import Bloc_title from '../Bloc_title/Bloc_title'
 
@@ -90,7 +90,7 @@ export default function Cv() {
                                 <Image src={imagePath} alt="" className="hover-zoom" width={400} height={600} />
                             </div>
 
-                            <Link href="/download/Mon-Cv(fr).pdf" download>
+                            <Link href="/download/Cemil-Yilmaz-CV.pdf" download>
                                 <a target="_blank" rel="noopener noreferrer">
                                     <button className="btnEffect" data-hover="cliquez !" >
                                         <span className="textBtn"><FaDownload className="iconReact" size={"1rem"} />Telecharger</span>

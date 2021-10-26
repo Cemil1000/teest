@@ -3,19 +3,19 @@ import { AiFillLinkedin } from 'react-icons/ai';
 
 export const logoSocial = [
     {
-        href: 'tel:0486392559',
+        href: 'tel:0483701853',
         typeNameIcon: <FaPhoneAlt className='iconReact' size='2rem' />,
     },
     {
-        href: 'mailto:jniouenwassim@gmail.com',
+        href: 'mailto:cemilyilmaz.be@gmail.com',
         typeNameIcon: <FaEnvelope className='iconReact' size='2rem' />,
     },
     {
-        href: 'https://www.linkedin.com/in/wassim-jniouen-953b651b9/',
+        href: 'https://www.linkedin.com/in/cemil-yilmaz-b72230184/',
         typeNameIcon: <AiFillLinkedin className='iconReact' size='2rem' />,
     },
     {
-        href: 'https://github.com/Jniouen-Wassim',
+        href: 'https://github.com/Cemil1000',
         typeNameIcon: <FaGithub className='iconReact' size='2rem' />,
     },
 ]

@@ -44,7 +44,7 @@ export default function Landing() {
 
                     <div className="bloc_logoWj">
                         <span className="logo">
-                            <img className="img_wj" src='/img/logo_wj.svg' alt="Logo des lettres 'WJ' dans un logo carré" />
+                            <img className="img_wj" src='/img/code.png' alt="Logo des lettres 'WJ' dans un logo carré" width={400} height={400} />
                         </span>
 
                         <TypeWriterEffect />

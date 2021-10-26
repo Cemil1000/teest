@@ -3,9 +3,6 @@ import React, { useEffect } from 'react'
 import { motion, useAnimation } from 'framer-motion'
 import { useInView } from 'react-intersection-observer'
 
-import Image from 'next/image'
-import imgMoi from '../../public/img/moi.png'
-
 import Bloc_title from '../Bloc_title/Bloc_title'
 
 import Slider from 'react-slick'

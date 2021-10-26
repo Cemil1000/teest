@@ -36,13 +36,13 @@
 
     .bloc_logoWj {
       position: relative;
-      padding-top: 60px;
+      padding-top: 100px;
 
       .logo .img_wj {
         z-index: 1;
         position: absolute;
 
-        top: 5rem;
+        top: 13rem;
         left: 6rem;
       }
       .title {
@@ -129,10 +129,6 @@
     }
 
     .bloc_logoWj {
-      .logo .img_wj {
-        width: 600px;
-        height: 600px;
-      }
       .title {
         line-height: 3rem;
         top: 23.9rem;
@@ -164,8 +160,7 @@
 
     .bloc_logoWj {
       .logo .img_wj {
-        width: 540px;
-        height: 540px;
+        margin-left: 60px;
       }
 
       .title {
@@ -197,11 +192,6 @@
     }
 
     .bloc_logoWj {
-      .logo .img_wj {
-        width: 450px;
-        height: 450px;
-      }
-
       .title {
         top: 31rem;
         left: 2rem;
@@ -256,7 +246,7 @@
           width: 350px;
           height: 350px;
           top: -5rem;
-          left: 4rem;
+          margin-left: 60px;
         }
 
         .title {
@@ -287,7 +277,7 @@
     }
     .bloc_logoWj {
       .logo .img_wj {
-        left: 0rem;
+        margin-left: 0px;
       }
       .title {
         left: 0rem;

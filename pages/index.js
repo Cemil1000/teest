@@ -18,7 +18,7 @@ export default function Home() {
         <meta httpEquiv='X-UA-Compatible' content='IE=edge' />
         <meta name='viewport' content='width=device-width, initial-scale=1.0' />
         <title>MyPortfolio</title>
-        <meta name='description' content='Portfolio by Wassim Jniouen' />
+        <meta name='description' content='Portfolio by Cemil Yilmaz' />
         <link rel='icon' href='/img/logoWj-onglet.png' />
       </Head>
 

@@ -80,18 +80,18 @@ export default function Projets() {
                         }}>
 
                         <SwiperSlide className="swiper-slide" >
-                            <Link href="https://jniouen-wassim.github.io/10_Collections/">
-                                <a target="_blank" rel="noopener noreferrer" >
-                                    <p className="text-Swipe">Collections (JavaScript)</p>
-                                    <Image src={imgDessert} alt="Picture of projet n1" />
+                            <Link href="https://cemil1000.github.io/Restaurant/">
+                                <a target="_blank" rel="noopener noreferrer">
+                                    <p className="text-Swipe">Restaurant (JavaScript / php)</p>
+                                    <Image src={imgRestaurant} alt="Picture of projet n5" />
                                 </a>
                             </Link>
                         </SwiperSlide>
                         <SwiperSlide className="swiper-slide" >
-                            <Link href="https://jniouen-wassim.github.io/React-PizzaClick/">
-                                <a target="_blank" rel="noopener noreferrer">
-                                    <p className="text-Swipe">PizzaClick (React)</p>
-                                    <Image src={imgPizza} alt="Picture of projet n2" />
+                            <Link href="https://cemil1000.github.io/LeavingTheHills/index.html">
+                                <a target="_blank" rel="noopener noreferrer" >
+                                    <p className="text-Swipe">Mini Projet</p>
+                                    <Image src={imgDessert} alt="Picture of projet n1" />
                                 </a>
                             </Link>
                         </SwiperSlide>
@@ -104,18 +104,10 @@ export default function Projets() {
                             </Link>
                         </SwiperSlide>
                         <SwiperSlide className="swiper-slide" >
-                            <Link href="https://jeanfabry.github.io/Showcase-website-fictional-restaurant/">
+                            <Link href="https://cemil1000.github.io/React-ClickerGame/">
                                 <a target="_blank" rel="noopener noreferrer">
-                                    <p className="text-Swipe">Restaurant (JavaScript / php)</p>
-                                    <Image src={imgRestaurant} alt="Picture of projet n5" />
-                                </a>
-                            </Link>
-                        </SwiperSlide>
-                        <SwiperSlide className="swiper-slide" >
-                            <Link href="https://men-in-night.vercel.app/">
-                                <a target="_blank" rel="noopener noreferrer">
-                                    <p className="text-Swipe">Men In Night (NextJs / Sass)</p>
-                                    <Image src={imgMenInNight} alt="Picture of projet n6" />
+                                    <p className="text-Swipe">BlockClicker (React)</p>
+                                    <Image src={imgPizza} alt="Picture of projet n2" />
                                 </a>
                             </Link>
                         </SwiperSlide>
