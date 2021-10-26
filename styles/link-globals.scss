@@ -1,0 +1,15 @@
+/*----------------{ global / layout }-----------------*/
+@import './scss/global/reset-global.scss';
+@import './scss/global/style-global.scss';
+
+/*---------------------{ script }---------------------*/
+@import './scss/script/cursorEffect.scss';
+/*----------------------{ bloc }----------------------*/
+@import "./scss/components/bloc_title.scss";
+
+/*-------------------{ components }-------------------*/
+@import './scss/components/navBar.scss';
+@import "./scss/components/aboutMe.scss";
+@import './scss/components/landing.scss';
+@import "./scss/components/cv.scss";
+@import "./scss/components/project.scss";

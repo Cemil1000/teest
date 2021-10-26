@@ -1,0 +1,26 @@
+// ? --↝( cursor )↜-------------------↜-
+.cursor {
+    position: fixed;
+    width: 25px;
+    height: 25px;
+    border-radius: 5%;
+    background: transparent;
+    border: 2px solid white;
+    transition: 0.3s;
+    transform: translate(-245%, -45%);
+    pointer-events: none;
+    z-index: -1;
+  }
+  
+  .cursorShadow {
+    position: fixed;
+    width: 21px;
+    height: 21px;
+    border-radius: 5%;
+    background: transparent;
+    border: 3px solid var(--color-purple);
+    transition: 0.7s;
+    transform: translate(-280%, -45%);
+    pointer-events: none;
+    z-index: -1;
+  }

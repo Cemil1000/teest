@@ -1,0 +1,84 @@
+#project {
+  text-align: center;
+
+  .bloc_title h4 {
+    margin-bottom: 5rem;
+  }
+
+  .swiper-container {
+    display: block;
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 200px; /*Effet mirroir*/
+
+    .swiper-slide {
+      background-position: center;
+      background-size: cover;
+      width: 500px;
+      height: 300px;
+      background: black;
+      -webkit-box-reflect: below 1px
+        linear-gradient(transparent, transparent, #0006); /*Effet mirroir*/
+      a {
+        text-decoration: none;
+        .text-Swipe {
+          background-color: var(--color-black);
+          font-family: var(--font-text);
+          color: white;
+          margin: 0;
+        }
+      }
+    }
+    .swiper-pagination-bullet {
+      background-color: white;
+    }
+  }
+
+  .swiper-container-responsive {
+    display: none;
+  }
+
+  
+}
+
+/*----------------------------▼ @media screen ▼---------------------------*/
+
+//! à partir de 580px.▼ (Phone)
+@media screen and (max-width: 580px) {
+  #project {
+    .bloc_title h4 {
+      margin-bottom: 2.5rem;
+    }
+        
+    .swiper-container {
+      display: none;
+    }
+    
+    .swiper-container-responsive {
+      display: block;
+      width: 90%;
+      padding-top: 0;
+      padding-bottom: 100px;
+
+      .swiper-slide {
+        background-position: center;
+        background-size: cover;
+        width: 500px;
+        height: 300px;
+        background: black;
+        a {
+          text-decoration: none;
+          .text-Swipe {
+            background-color: var(--color-black);
+            font-family: var(--font-text);
+            color: white;
+            margin: 0;
+          }
+        }
+      }
+      .swiper-pagination-bullet {
+        background-color: white;
+      }
+    }
+  }
+}

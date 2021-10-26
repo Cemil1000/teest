@@ -1,0 +1,311 @@
+#landing main {
+  position: relative;
+  .bloc_scrollDown {
+    position: absolute;
+    margin: 76vh 0 1vh 0.8rem;
+
+    p {
+      writing-mode: vertical-rl;
+      text-orientation: upright;
+      font-size: 13px;
+      margin-left: 7px;
+    }
+  }
+  .iconResp {
+    display: none;
+  }
+  .container_landing {
+    display: flex;
+    width: auto;
+    height: 100vh;
+    margin-left: 5%;
+    margin-right: 5%;
+    .bloc_social {
+      width: 150px;
+      margin-left: 10%;
+      margin-right: 3%;
+
+      ul {
+        margin: 22vh 16% 0 16%;
+
+        li {
+          padding: 45% 0;
+        }
+      }
+    }
+
+    .bloc_logoWj {
+      position: relative;
+      padding-top: 60px;
+
+      .logo .img_wj {
+        z-index: 1;
+        position: absolute;
+
+        top: 5rem;
+        left: 6rem;
+      }
+      .title {
+        z-index: 3;
+        position: absolute;
+        text-transform: uppercase;
+        text-shadow: #000000 1px 2px;
+        margin-left: 1vh;
+        line-height: 4rem;
+        color: white;
+        top: 22.9rem;
+        left: 36.4rem;
+
+        p {
+          font-size: 123px;
+          font-family: var(--font-text);
+        }
+        .Typewriter__wrapper {
+          font-size: 44px;
+          letter-spacing: 2rem;
+          padding-left: 5px;
+          padding-bottom: 5px;
+          font-family: var(--font-typeWriter);
+        }
+      }
+    }
+  }
+}
+
+/*----------------------------▼ @media screen ▼---------------------------*/
+//todo à partir de 1510px.▲
+@media screen and (min-width: 1510px) {
+  #landing {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1600 900'%3E%3Cpolygon fill='%23cccccc' points='957 450 539 900 1396 900'/%3E%3Cpolygon fill='%23aaaaaa' points='957 450 872.9 900 1396 900'/%3E%3Cpolygon fill='%23a7b5b8' points='-60 900 398 662 816 900'/%3E%3Cpolygon fill='%23899ca0' points='337 900 398 662 816 900'/%3E%3Cpolygon fill='%237ba2aa' points='1203 546 1552 900 876 900'/%3E%3Cpolygon fill='%2363909a' points='1203 546 1552 900 1162 900'/%3E%3Cpolygon fill='%23508f9d' points='641 695 886 900 367 900'/%3E%3Cpolygon fill='%23477e8b' points='587 900 641 695 886 900'/%3E%3Cpolygon fill='%23337280' points='1710 900 1401 632 1096 900'/%3E%3Cpolygon fill='%232f6a77' points='1710 900 1401 632 1365 900'/%3E%3Cpolygon fill='%231c525e' points='1210 900 971 687 725 900'/%3E%3Cpolygon fill='%231c525e' points='943 900 1210 900 971 687'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+
+//todo à partir de 1510px.▼
+@media screen and (min-width: 581px) and (max-width: 1510px) {
+  #landing {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1600 900'%3E%3Cpolygon fill='%23cccccc' points='957 450 539 900 1396 900'/%3E%3Cpolygon fill='%23aaaaaa' points='957 450 872.9 900 1396 900'/%3E%3Cpolygon fill='%23a7b5b8' points='-60 900 398 662 816 900'/%3E%3Cpolygon fill='%23899ca0' points='337 900 398 662 816 900'/%3E%3Cpolygon fill='%237ba2aa' points='1203 546 1552 900 876 900'/%3E%3Cpolygon fill='%2363909a' points='1203 546 1552 900 1162 900'/%3E%3Cpolygon fill='%23508f9d' points='641 695 886 900 367 900'/%3E%3Cpolygon fill='%23477e8b' points='587 900 641 695 886 900'/%3E%3Cpolygon fill='%23337280' points='1710 900 1401 632 1096 900'/%3E%3Cpolygon fill='%232f6a77' points='1710 900 1401 632 1365 900'/%3E%3Cpolygon fill='%231c525e' points='1210 900 971 687 725 900'/%3E%3Cpolygon fill='%231c525e' points='943 900 1210 900 971 687'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: center bottom;
+  }
+}
+
+//? à partir de 1560px.▼
+@media screen and (max-width: 1560px) {
+  #landing main .container_landing {
+    .bloc_social {
+      margin-left: 0%;
+    }
+
+    .bloc_logoWj {
+      .logo .img_wj {
+        left: 0rem;
+      }
+      .title {
+        left: 30.4rem;
+        p {
+          font-size: 111px;
+        }
+        .Typewriter__wrapper {
+          font-size: 35px;
+        }
+      }
+    }
+  }
+}
+
+//? à partir de 1260px.▼
+@media screen and (max-width: 1260px) {
+  #landing main .container_landing {
+    margin-left: 0%;
+    .bloc_social {
+      ul {
+        margin: 26vh 16% 0 16%;
+        li {
+          padding: 35% 0;
+        }
+      }
+    }
+
+    .bloc_logoWj {
+      .logo .img_wj {
+        width: 600px;
+        height: 600px;
+      }
+      .title {
+        line-height: 3rem;
+        top: 23.9rem;
+        left: 23.4rem;
+        p {
+          font-size: 90px;
+        }
+        .Typewriter__wrapper {
+          font-size: 20px;
+        }
+      }
+    }
+  }
+}
+
+//? à partir de 985px.▼
+@media screen and (max-width: 985px) {
+  #landing main .container_landing {
+    .bloc_social {
+      width: 110px;
+      margin-right: 5%;
+      ul {
+        margin: 25vh 0;
+        li {
+          padding: 25% 0;
+        }
+      }
+    }
+
+    .bloc_logoWj {
+      .logo .img_wj {
+        width: 540px;
+        height: 540px;
+      }
+
+      .title {
+        top: 36rem;
+        left: 3rem;
+        p {
+          font-size: 90px;
+        }
+        .Typewriter__wrapper {
+          font-size: 19.5px;
+        }
+      }
+    }
+  }
+}
+
+//? à partir de 660px.▼
+@media screen and (max-width: 660px) {
+  #landing main .container_landing {
+    .bloc_social {
+      width: 110px;
+      margin-right: 0%;
+      ul {
+        margin: 22vh 0;
+        li {
+          padding: 20% 0;
+        }
+      }
+    }
+
+    .bloc_logoWj {
+      .logo .img_wj {
+        width: 450px;
+        height: 450px;
+      }
+
+      .title {
+        top: 31rem;
+        left: 2rem;
+        p {
+          font-size: 80px;
+        }
+        .Typewriter__wrapper {
+          font-size: 12px;
+        }
+      }
+    }
+  }
+}
+
+//! à partir de 580px.▼ (Phone)
+@media screen and (max-width: 580px) {
+  #landing main {
+    position: relative;
+    .bloc_scrollDown {
+      display: none;
+    }
+    .iconResp {
+      display: block;
+      position: absolute;
+      left: 48vw;
+      bottom: 12vh;
+    }
+
+    .container_landing {
+      display: block;
+      margin-left: 0%;
+      margin-right: 0%;
+
+      .bloc_social {
+        display: flex;
+        margin-left: 12%;
+        margin-right: 20%;
+
+        ul {
+          display: flex;
+          margin: 15vh 0;
+
+          li {
+            padding: 0 15%;
+          }
+        }
+      }
+
+      .bloc_logoWj {
+        height: 50vh;
+        .logo .img_wj {
+          width: 350px;
+          height: 350px;
+          top: -5rem;
+          left: 4rem;
+        }
+
+        .title {
+          line-height: 2rem;
+          color: white;
+
+          top: 17rem;
+          left: 4rem;
+
+          p {
+            font-size: 74px;
+          }
+
+          .Typewriter__wrapper {
+            font-size: 8px;
+          }
+        }
+      }
+    }
+  }
+}
+
+//! à partir de 411px.▼ (Phone)
+@media screen and (max-width: 411px) {
+  #landing main .container_landing {
+    .bloc_social {
+      margin-left: 4%;
+    }
+    .bloc_logoWj {
+      .logo .img_wj {
+        left: 0rem;
+      }
+      .title {
+        left: 0rem;
+      }
+    }
+  }
+}
+
+//! à partir de 375px.▼ (Phone)
+@media screen and (max-width: 375px) {
+  #landing main {
+    .iconResp {
+      bottom: 5vh;
+    }
+    .container_landing {
+      .bloc_social {
+        margin-left: 0%;
+      }
+    }
+  }
+}
